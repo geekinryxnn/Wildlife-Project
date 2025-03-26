@@ -100,3 +100,70 @@ h1 {
   padding: 0px;
   color: black;
 }
+
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+    font-size: 90%;
+  }
+
+  h1 {
+    font-size: 250%;
+    margin-top: 5rem;
+  }
+
+  #logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #paragraph {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+
+  #Search-details {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  #Search-details input[type="text"] {
+    width: 80%;
+    padding: 10px;
+  }
+
+  #Search-details button {
+    padding: 10px;
+  }
+
+  #animal-info {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  #animal-info img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 200%;
+    margin-top: 3rem;
+  }
+
+  #paragraph {
+    font-size: 16px;
+  }
+
+  #Search-details input[type="text"] {
+    width: 100%;
+  }
+
+  #animal-info img {
+    width: 120px;
+    height: 120px;
+  }
+}
