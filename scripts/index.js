@@ -1,4 +1,4 @@
-// // const API_BASE_URL = 'http://localhost:3000'; // json-server URL
+// const API_BASE_URL = 'http://localhost:3000'; // json-server URL
 
 // const animalSearchInput = document.getElementById('animal-search');
 // const searchButton = document.getElementById('search-button');
@@ -58,8 +58,6 @@
 // window.onload = () => {
 //     //  fetchAnimalData(''); //  You might want to display a default animal on load
 // };
-// Assuming your db.json is in the same directory as your index.html
-const API_BASE_URL = './db.json'; 
 
 const animalSearchInput = document.getElementById('animal-search');
 const searchButton = document.getElementById('search-button');
@@ -67,9 +65,10 @@ const animalImage = document.getElementById('animal-image');
 const animalNameDisplay = document.getElementById('animal-name');
 const animalHabitatDisplay = document.getElementById('animal-habitat');
 const animalDescriptionDisplay = document.getElementById('animal-description');
+const animalInfoDiv = document.getElementById('animal-info'); // Add this line
 
 function fetchAnimalData(searchTerm) {
-    fetch(API_BASE_URL) // Fetch the entire db.json
+    fetch('./db.json') // Fetch from local db.json
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -77,11 +76,13 @@ function fetchAnimalData(searchTerm) {
             return response.json();
         })
         .then(data => {
-            const animal = data.find(animal => animal.name.toLowerCase() === searchTerm.toLowerCase()); // Find the animal client-side, case-insensitive
+            const animal = data.animals.find(animal => animal.name.toLowerCase() === searchTerm.toLowerCase()); // Corrected to data.animals.find
             if (animal) {
                 displayAnimalInfo(animal);
+                animalInfoDiv.style.display = 'block'; // Show the div
             } else {
                 clearAnimalInfo();
+                animalInfoDiv.style.display = 'none'; // Hide the div
             }
         })
         .catch(error => {
@@ -90,6 +91,7 @@ function fetchAnimalData(searchTerm) {
             animalHabitatDisplay.textContent = "";
             animalDescriptionDisplay.textContent = "";
             animalImage.src = "";
+            animalInfoDiv.style.display = 'none'; // Hide the div
         });
 }
 
@@ -116,5 +118,5 @@ searchButton.addEventListener('click', () => {
 });
 
 window.onload = () => {
-    // Optionally display a default animal on load
+    animalInfoDiv.style.display = 'none'; // Hide the div on load
 };

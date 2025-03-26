@@ -100,7 +100,6 @@ h1 {
   padding: 0px;
   color: black;
 }
-
 @media (max-width: 768px) {
   body {
     margin: 10px;
@@ -109,7 +108,7 @@ h1 {
 
   h1 {
     font-size: 250%;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   #logo img {
@@ -145,25 +144,5 @@ h1 {
   #animal-info img {
     width: 150px;
     height: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 200%;
-    margin-top: 3rem;
-  }
-
-  #paragraph {
-    font-size: 16px;
-  }
-
-  #Search-details input[type="text"] {
-    width: 100%;
-  }
-
-  #animal-info img {
-    width: 120px;
-    height: 120px;
   }
 }
