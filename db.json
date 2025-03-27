@@ -1,4 +1,3 @@
-
 {
   "animals": [
     {
@@ -35,164 +34,217 @@
       "image": "https://images.unsplash.com/photo-1613575573097-15f53a39267a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBlbmd1aW58ZW58MHx8MHx8fDA%3D",
       "description": "A flightless bird that lives in cold climates.",
       "habitat": "Antarctica"
+    },
+    {
+      "id": 6,
+      "name": "Giraffe",
+      "image": "https://images.unsplash.com/photo-1534567110243-8875d64ca8ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lyYWZmZXxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A tall herbivorous mammal with a long neck.",
+      "habitat": "Savanna"
+    },
+    {
+      "id": 7,
+      "name": "Kangaroo",
+      "image": "https://images.unsplash.com/photo-1568198972020-de1dab9ac71a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a2FuZ2Fyb298ZW58MHx8MHx8fDA%3D",
+      "description": "A marsupial native to Australia.",
+      "habitat": "Grasslands"
+    },
+    {
+      "id": 8,
+      "name": "Polar Bear",
+      "image": "https://plus.unsplash.com/premium_photo-1661867529492-4941c875b6c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9sYXIlMjBiZWFyfGVufDB8fDB8fHww",
+      "description": "A large bear that lives in Arctic regions.",
+      "habitat": "Arctic"
+    },
+    {
+      "id": 9,
+      "name": "Zebra",
+      "image": "https://images.unsplash.com/photo-1526319238109-524eecb9b913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8emVicmF8ZW58MHx8MHx8fDA%3D",
+      "description": "A striped herbivorous mammal.",
+      "habitat": "Savanna"
+    },
+    {
+      "id": 10,
+      "name": "Koala",
+      "image": "https://images.unsplash.com/photo-1591083896596-6b9f15f05a71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a29hbGF8ZW58MHx8MHx8fDA%3D",
+      "description": "A tree-dwelling marsupial native to Australia.",
+      "habitat": "Eucalyptus Forests"
+    },
+    {
+      "id": 11,
+      "name": "Cheetah",
+      "image": "https://media.istockphoto.com/id/167768212/photo/cheetah-family.webp?a=1&b=1&s=612x612&w=0&k=20&c=rWWwN4T_ctmHaRNuJt1BXedwuLbweI7JuC1tVuAxBXU=",
+      "description": "The fastest land animal.",
+      "habitat": "Savanna"
+    },
+    {
+      "id": 12,
+      "name": "Flamingo",
+      "image": "https://images.unsplash.com/photo-1539418561314-565804e349c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmxhbWluZ298ZW58MHx8MHx8fDA%3D",
+      "description": "A wading bird with pink feathers.",
+      "habitat": "Wetlands"
+    },
+    {
+      "id": 13,
+      "name": "Wolf",
+      "image": "https://plus.unsplash.com/premium_photo-1661890071978-6c80f92c7fdf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V09MRnxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A carnivorous mammal that lives in packs.",
+      "habitat": "Forests, Tundra"
+    },
+    {
+      "id": 14,
+      "name": "Peacock",
+      "image": "https://media.istockphoto.com/id/180699358/photo/peacock.webp?a=1&b=1&s=612x612&w=0&k=20&c=lWS-hiJ_OQF5D628tQ-nucxhZoHQMReITo4V2ciB0K4=",
+      "description": "A bird known for its colorful tail feathers.",
+      "habitat": "Forests"
+    },
+    {
+      "id": 15,
+      "name": "Dolphin",
+      "image": "https://images.unsplash.com/photo-1547382442-d17c21625a44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9scGhpbnxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "An intelligent aquatic mammal.",
+      "habitat": "Oceans"
+    },
+    {
+      "id": 16,
+      "name": "Colobus Monkey",
+      "image": "https://images.unsplash.com/photo-1577052347185-5b3bffd7adc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb2J1cyUyMG1vbmtleXxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "Is a white and black monkey.",
+      "habitat": "The Amazon Rainforest"
+    },
+    {
+      "id": 17,
+      "name": "Gorilla",
+      "image": "https://images.unsplash.com/photo-1587564916715-8f2e715a3e75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D",
+      "description": "A monkey in the Jungle",
+      "habitat": "Jungle"
+    },
+    {
+      "id": 18,
+      "name": "Hippopotamus",
+      "image": "https://media.istockphoto.com/id/520386707/photo/hippo-with-clipping-path-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=ujc9McbW0Eprp8Vs_0ApL9nxy1C-KG0QQUKtEVoNyqk=",
+      "description": "A large, mostly herbivorous mammal found in rivers and lakes.",
+      "habitat": "Rivers, Lakes"
+    },
+    {
+      "id": 19,
+      "name": "Camel",
+      "image": "https://images.unsplash.com/photo-1616599458812-d7c86e0add7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZWx8ZW58MHx8MHx8fDA%3D",
+      "description": "A desert animal known for its humps.",
+      "habitat": "Deserts"
+    },
+    {
+      "id": 20,
+      "name": "Parrot",
+      "image": "https://images.unsplash.com/photo-1544923408-75c5cef46f14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFycm90fGVufDB8fDB8fHww",
+      "description": "A colorful bird known for its ability to mimic sounds.",
+      "habitat": "Tropical Forests"
+    },
+    {
+      "id": 21,
+      "name": "Crocodile",
+      "image": "https://images.unsplash.com/photo-1595433409683-943ded8e7b1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNyb2NvZGlsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A large aquatic reptile with a powerful bite.",
+      "habitat": "Rivers, Swamps"
+    },
+    {
+      "id": 22,
+      "name": "Eagle",
+      "image": "https://media.istockphoto.com/id/2075297835/photo/bald-eagle-about-to-dive-into-water-with-catch-in-its-talon.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rz1rNL7rTz4rlTNzfBNlHU1QBpTD97rBs6Mn3keMk_U=",
+      "description": "A bird of prey known for its sharp vision.",
+      "habitat": "Mountains, Forests"
+    },
+    {
+      "id": 23,
+      "name": "Buffalo",
+      "image": "https://plus.unsplash.com/premium_photo-1661833523842-9777198be3be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QWZyaWNhbiUyMFdpbGQlMjBCdWZmYWxsb3xlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A large herbivorous mammal with curved horns.",
+      "habitat": "Savanna"
+    },
+    {
+      "id": 24,
+      "name": "Leopard",
+      "image": "https://images.unsplash.com/photo-1573663209453-93f1875e5a7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fExlb3BhcmR8ZW58MHx8MHx8fDA%3D",
+      "description": "A spotted carnivorous feline.",
+      "habitat": "Savanna, Forest"
+    },
+    {
+      "id": 25,
+      "name": "Ostrich",
+      "image": "https://images.unsplash.com/photo-1569979227661-459bbb0ebe84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3N0cmljaHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A large flightless bird with long legs.",
+      "habitat": "Savanna"
+    },
+    {
+      "id": 26,
+      "name": "Panther",
+      "image": "https://media.istockphoto.com/id/1924652913/photo/black-jaguar-melanistic-feline.webp?a=1&b=1&s=612x612&w=0&k=20&c=gfNtLxxxR6AxkxXV_i2mD8a45XnRD71b8uVHp3odjPU=",
+      "description": "A melanistic variant of leopards or jaguars, known for its black coat.",
+      "habitat": "Savanna, Forest"
+    },
+    {
+      "id": 27,
+      "name": "Rhino",
+      "image": "https://plus.unsplash.com/premium_photo-1664304386820-b46091c555ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Umhpbm9jZXJvdXN8ZW58MHx8MHx8fDA%3D",
+      "description": "A large herbivorous mammal with one or two horns.",
+      "habitat": "Savanna"
     }
     ,
-      {
-        "id": 6,
-        "name": "Giraffe",
-        "image": "https://images.unsplash.com/photo-1534567110243-8875d64ca8ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lyYWZmZXxlbnwwfHwwfHx8MA%3D%3D",
-        "description": "A tall herbivorous mammal with a long neck.",
-        "habitat": "Savanna"
-      },
-      {
-        "id": 7,
-        "name": "Kangaroo",
-        "image":"https://images.unsplash.com/photo-1568198972020-de1dab9ac71a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a2FuZ2Fyb298ZW58MHx8MHx8fDA%3D",
-        "description": "A marsupial native to Australia.",
-        "habitat": "Grasslands"
-      },
-      {
-        "id": 8,
-        "name": "Polar Bear",
-        "image": "https://plus.unsplash.com/premium_photo-1661867529492-4941c875b6c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9sYXIlMjBiZWFyfGVufDB8fDB8fHww",
-        "description": "A large bear that lives in Arctic regions.",
-        "habitat": "Arctic"
-      },
-      {
-        "id": 9,
-        "name": "Zebra",
-        "image": "https://images.unsplash.com/photo-1526319238109-524eecb9b913?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8emVicmF8ZW58MHx8MHx8fDA%3D",
-        "description": "A striped herbivorous mammal.",
-        "habitat": "Savanna"
-      },
-      {
-        "id": 10,
-        "name": "Koala",
-        "image": "https://images.unsplash.com/photo-1591083896596-6b9f15f05a71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a29hbGF8ZW58MHx8MHx8fDA%3D",
-        "description": "A tree-dwelling marsupial native to Australia.",
-        "habitat": "Eucalyptus Forests"
-      }
-      ,
-      {
-        "id": 11,
-        "name": "Cheetah",
-        "image": "https://media.istockphoto.com/id/167768212/photo/cheetah-family.webp?a=1&b=1&s=612x612&w=0&k=20&c=rWWwN4T_ctmHaRNuJt1BXedwuLbweI7JuC1tVuAxBXU=",
-        "description": "The fastest land animal.",
-        "habitat": "Savanna"
-      },
-      {
-        "id": 12,
-        "name": "Flamingo",
-        "image": "https://images.unsplash.com/photo-1539418561314-565804e349c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmxhbWluZ298ZW58MHx8MHx8fDA%3D",
-        "description": "A wading bird with pink feathers.",
-        "habitat": "Wetlands"
-      },
-      {
-        "id": 13,
-        "name": "Wolf",
-        "image": "https://plus.unsplash.com/premium_photo-1661890071978-6c80f92c7fdf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V09MRnxlbnwwfHwwfHx8MA%3D%3D",
-        "description": "A carnivorous mammal that lives in packs.",
-        "habitat": "Forests, Tundra"
-      },
-      {
-        "id": 14,
-        "name": "Peacock",
-        "image": "https://media.istockphoto.com/id/180699358/photo/peacock.webp?a=1&b=1&s=612x612&w=0&k=20&c=lWS-hiJ_OQF5D628tQ-nucxhZoHQMReITo4V2ciB0K4=",
-        "description": "A bird known for its colorful tail feathers.",
-        "habitat": "Forests"
-      },
-      {
-        "id": 15,
-        "name": "Dolphin",
-        "image": "https://images.unsplash.com/photo-1547382442-d17c21625a44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9scGhpbnxlbnwwfHwwfHx8MA%3D%3D",
-        "description": "An intelligent aquatic mammal.",
-        "habitat": "Oceans"
-      },
-      {
-        "id":16,
-        "name":"Colobus Monkey",
-        "image":"https://images.unsplash.com/photo-1577052347185-5b3bffd7adc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb2J1cyUyMG1vbmtleXxlbnwwfHwwfHx8MA%3D%3D",
-        "description":"Is a white and black monkey.",
-        "habitat":"The Amazon Rainforest"
-       },
-       {
-        "id":17,
-        "name":"Gorilla",
-        "image": "https://images.unsplash.com/photo-1587564916715-8f2e715a3e75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D",
-        "description":"A monkey in the Jungle",
-        "habitat":"Jungle"
-       },
-      {
-        "id": 18,
-        "name": "Hippopotamus",
-        "image": "https://media.istockphoto.com/id/520386707/photo/hippo-with-clipping-path-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=ujc9McbW0Eprp8Vs_0ApL9nxy1C-KG0QQUKtEVoNyqk=",
-        "description": "A large, mostly herbivorous mammal found in rivers and lakes.",
-        "habitat": "Rivers, Lakes"
-      },
-      {
-        "id": 19,
-        "name": "Camel",
-        "image": "https://images.unsplash.com/photo-1616599458812-d7c86e0add7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZWx8ZW58MHx8MHx8fDA%3D",
-        "description": "A desert animal known for its humps.",
-        "habitat": "Deserts"
-      },
-      {
-        "id": 20,
-        "name": "Parrot",
-        "image": "https://images.unsplash.com/photo-1544923408-75c5cef46f14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFycm90fGVufDB8fDB8fHww",
-        "description": "A colorful bird known for its ability to mimic sounds.",
-        "habitat": "Tropical Forests"
-      },
-      {
-        "id": 21,
-        "name": "Crocodile",
-        "image": "https://images.unsplash.com/photo-1595433409683-943ded8e7b1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNyb2NvZGlsZXxlbnwwfHwwfHx8MA%3D%3D",
-        "description": "A large aquatic reptile with a powerful bite.",
-        "habitat": "Rivers, Swamps"
-      },
-      {
-        "id": 22,
-        "name": "Eagle",
-        "image": "https://media.istockphoto.com/id/2075297835/photo/bald-eagle-about-to-dive-into-water-with-catch-in-its-talon.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rz1rNL7rTz4rlTNzfBNlHU1QBpTD97rBs6Mn3keMk_U=",
-        "description": "A bird of prey known for its sharp vision.",
-        "habitat": "Mountains, Forests"
-      }
-      ,
-      {
-        "id": 23,
-        "name": "Buffalo",
-        "image": "https://plus.unsplash.com/premium_photo-1661833523842-9777198be3be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QWZyaWNhbiUyMFdpbGQlMjBCdWZmYWxsb3xlbnwwfHwwfHx8MA%3D%3D",
-        "description": "A large herbivorous mammal with curved horns.",
-        "habitat": "Savanna"
-      },
-      {
-        "id": 24,
-        "name": "Leopard",
-        "image": "https://images.unsplash.com/photo-1573663209453-93f1875e5a7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fExlb3BhcmR8ZW58MHx8MHx8fDA%3D",
-        "description": "A spotted carnivorous feline.",
-        "habitat": "Savanna, Forest"
-      },
-      {
-        "id": 25,
-        "name": "Ostrich",
-        "image": "https://images.unsplash.com/photo-1615474286632-e31ac3633d58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG9zdHJpY2h8ZW58MHx8MHx8fDA%3D",
-        "description": "A large flightless bird with long legs.",
-        "habitat": "Savanna"
-      },
-      {
-        "id": 26,
-        "name": "Panther",
-        "image": "https://images.unsplash.com/photo-1573663209453-93f1875e5a7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFBhbnRoZXJ8ZW58MHx8MHx8fDA%3D",
-        "description": "A melanistic variant of leopards or jaguars, known for its black coat.",
-        "habitat": "Savanna, Forest"
-      },
-      {
-        "id": 27,
-        "name": "Rhino",
-        "image": "https://plus.unsplash.com/premium_photo-1664304386820-b46091c555ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Umhpbm9jZXJvdXN8ZW58MHx8MHx8fDA%3D",
-        "description": "A large herbivorous mammal with one or two horns.",
-        "habitat": "Savanna"
-      }
-    ]}
-    
-
+    {
+      "id": 28,
+      "name": "Fox",
+      "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm94fGVufDB8fDB8fHww",
+      "description": "A small, omnivorous mammal with a bushy tail.",
+      "habitat": "Forests, Grasslands"
+    },
+    {
+      "id": 29,
+      "name": "Seal",
+      "image": "https://images.unsplash.com/photo-1565413294262-fa587c396965?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhbHxlbnwwfHwwfHx8MA%3D%3D",
+      "description": "A marine mammal with flippers.",
+      "habitat": "Oceans, Coasts"
+    },
+    {
+      "id": 30,
+      "name": "Toucan",
+      "image": "https://images.unsplash.com/photo-1619038779484-a27362fb82cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG91Y2FufGVufDB8fDB8fHww",
+      "description": "A tropical bird with a large colorful beak.",
+      "habitat": "Rainforests"
+    },
+    {
+      "id": 31,
+      "name": "Sloth",
+      "image": "https://images.unsplash.com/photo-1571602642271-21cb1d8531f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2xvdGh8ZW58MHx8MHx8fDA%3D",
+      "description": "A slow-moving tree-dwelling mammal.",
+      "habitat": "Rainforests"
+    },
+    {
+      "id": 32,
+      "name": "Arctic Fox",
+      "image": "https://plus.unsplash.com/premium_photo-1661900444397-beadc46dcdb1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFydGljJTIwZm94fGVufDB8fDB8fHww",
+      "description": "A small fox adapted to cold Arctic environments.",
+      "habitat": "Arctic"
+    },
+    {
+      "id": 33,
+      "name": "Macaw",
+      "image": "https://images.unsplash.com/photo-1612024782955-49fae79e42bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYXd8ZW58MHx8MHx8fDA%3D",
+      "description": "A colorful parrot native to Central and South America.",
+      "habitat": "Rainforests"
+    },
+    {
+      "id": 34,
+      "name": "Otter",
+      "image": "https://images.unsplash.com/photo-1583812365991-05f45d8a765e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3R0ZXJ8ZW58MHx8MHx8fDA%3D",
+      "description": "A playful aquatic mammal.",
+      "habitat": "Rivers, Lakes"
+    },
+    {
+      "id": 35,
+      "name": "Red Panda",
+      "image": "https://images.unsplash.com/photo-1600094329163-a2b52f913831?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVkJTIwcGFuZGF8ZW58MHx8MHx8fDA%3D",
+      "description": "A small mammal with reddish-brown fur.",
+      "habitat": "Himalayas, Forests"
+    }
+  ]
+}
