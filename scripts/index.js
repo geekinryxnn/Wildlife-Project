@@ -4,10 +4,10 @@ const animalImage = document.getElementById("animal-image");
 const animalNameDisplay = document.getElementById("animal-name");
 const animalHabitatDisplay = document.getElementById("animal-habitat");
 const animalDescriptionDisplay = document.getElementById("animal-description");
-const animalInfoDiv = document.getElementById("animal-info"); // Add this line
+const animalInfoDiv = document.getElementById("animal-info"); 
 
 function fetchAnimalData(searchTerm) {
-  fetch("./db.json") // Fetch from local db.json
+  fetch("./db.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -17,13 +17,13 @@ function fetchAnimalData(searchTerm) {
     .then((data) => {
       const animal = data.animals.find(
         (animal) => animal.name.toLowerCase() === searchTerm.toLowerCase()
-      ); // Corrected to data.animals.find
+      ); 
       if (animal) {
         displayAnimalInfo(animal);
-        animalInfoDiv.style.display = "block"; // Show the div
+        animalInfoDiv.style.display = "block";
       } else {
         clearAnimalInfo();
-        animalInfoDiv.style.display = "none"; // Hide the div
+        animalInfoDiv.style.display = "none"; 
       }
     })
     .catch((error) => {
@@ -32,7 +32,7 @@ function fetchAnimalData(searchTerm) {
       animalHabitatDisplay.textContent = "";
       animalDescriptionDisplay.textContent = "";
       animalImage.src = "";
-      animalInfoDiv.style.display = "none"; // Hide the div
+      animalInfoDiv.style.display = "none"; 
     });
 }
 
@@ -59,7 +59,7 @@ searchButton.addEventListener("click", () => {
 });
 
 window.onload = () => {
-  animalInfoDiv.style.display = "none"; // Hide the div on load
+  animalInfoDiv.style.display = "none"; 
 };
 
 
