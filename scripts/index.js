@@ -73,7 +73,7 @@ const animalInfoDiv = document.getElementById("animal-info");
 const videoContainer = document.getElementById("video-container");
 
 function fetchAnimalData(searchTerm) {
-  fetch("http://localhost:3000/animals")
+  fetch("./db.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
