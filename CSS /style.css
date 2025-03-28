@@ -140,7 +140,9 @@ h1 {
 
   h1 {
     font-size: 250%;
-    margin-top: 4rem;
+    margin-top: 7rem;
+    margin-right: 0.5rem;
+
   }
 
   #logo img {
@@ -151,14 +153,14 @@ h1 {
 
   #paragraph {
     font-size: 20px;
-    padding-top: 2rem;
+    padding-top: 0rem;
   }
 
   #Search-details {
     width: 100%;
     margin-left: 0;
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 2.5rem;
+    font-size: 0.875rem;
   }
 
   #Search-details input[type="text"] {
